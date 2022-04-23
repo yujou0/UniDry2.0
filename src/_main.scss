@@ -460,8 +460,19 @@ p{
       padding: 0 5px;
           }
   }
-  .awithlink:hover{
-    opacity: 0.8;
+  .awithlink{
+    position: relative;
+    img{
+      position: absolute;
+    width: 90%;
+    }
+  }
+  .awithlink img:last-child{
+    opacity: 0;
+  }
+  .awithlink img:last-child:hover{
+      opacity: 1;
+      transition: opacity 0.3s ease-in-out;
   }
 }
 .fix-btns{

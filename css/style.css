@@ -964,8 +964,23 @@ footer {
   }
 }
 
-.section10 .awithlink:hover {
-  opacity: 0.8;
+.section10 .awithlink {
+  position: relative;
+}
+
+.section10 .awithlink img {
+  position: absolute;
+  width: 90%;
+}
+
+.section10 .awithlink img:last-child {
+  opacity: 0;
+}
+
+.section10 .awithlink img:last-child:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .fix-btns {
