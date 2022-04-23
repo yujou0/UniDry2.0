@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>樂泥科技 地不漏深層導水盤</title>
+    <link rel="icon" href="./image/logo_02.ico" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header header-left  ">
+                <div class="nav-title">
+                    <h1 class=" d-flex justify-content-center"><img class="logo" src="./image/logo.png" alt="UniDry"></h1>
+                </div>
+            </div>
+            <div class="nav-btn">
+                <label id="hamberger" for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <div class="nav-links">
+                <a class="nav-link" href="#section2" target="_self">影片介紹</a>
+                <a class="nav-link" href="#section3" target="_self">產品優勢</a>
+                <a class="nav-link" href="#section4" target="_self">發明專利</a>
+                <a class="nav-link" href="#section5" target="_self">產品比較</a>
+                <a class="nav-link" href="#section7" target="_self">施工流程</a>
+                <a class="nav-link" href="#section8" target="_self">關於樂泥</a>
+                <a class="nav-link" href="#section9" target="_self">購買專區</a>
+                <a class="nav-link" href="#section10" target="_self">聯絡我們</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container-fluid p-0">
+                <img class="mb-1" src="./image/banner_01.jpg" alt="Second slide">
+                <img src="./image/banner_02.jpg" alt="First slide">
+            </div>
+        </section>
+        <section class="section2" id="section2">
+            <div class="container-fluid p-0">
+                <div class="d-lg-flex flex-column align-items-center justify-content-center ">
+                    <div class="d-flex flex-column align-items-center justify-content-center col-lg-6">
+                        <img class="section2_title" src="./image/t01.png" alt="">
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-center col-lg-8 mt-3">
+                        <iframe src="https://www.youtube.com/embed/Qf7xl5LZFV4?controls=0&amp;start=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3" id="section3">
+            <img src="./image/a01.jpg" alt="">
+        </section>
+        <section class="section4" id="section4">
+            <img src="./image/a02.jpg" alt="">
+        </section>
+        <section class="section5" id="section5">
+            <img class="mb-1" src="./image/a03.jpg" alt="">
+        </section>
+        <section class="section6" id="section6">
+            <img class="mb-1" src="./image/a04.jpg" alt="">
+        </section>
+        <section class="section7" id="section7">
+            <img src="./image/a05.jpg" alt="">
+        </section>
+        <section class="section8" id="section8">
+            <img src="./image/a06.jpg" alt="">
+            <img src="./image/a07.jpg" alt="">
+        </section>
+        <section class="section9 mb-1" id="section9">
+            <div class="container-fluid p-0">
+                <div class="d-lg-flex flex-column align-items-center justify-content-center m-auto left-box">
+                    <div class=" my-lg-5  col-md-12 col-lg-8 payway">
+                        <h4>付款方式</h4>
+                        <h5>線上刷卡</h5>
+                        <p>
+                            使用綠界科技第三方平台系統、<br>
+                            各家銀行的VISA、MasterCard及JCB皆可使用
+                        </p>
+                        <div class="d-flex justify-content-end">
+                            <a href=""><img src="./image/icon_buy.png" alt="">&nbsp;&nbsp;我要購買</a>
+                        </div>
+                        <br><br>
+                        <h5>貨到付款</h5>
+                        <p>
+                            請填寫下方表單，由配送人員收取訂單的金額<br>
+                        </p>
+                        <p class="showtheprice">
+                            深層導水盤售價：&nbsp;<span class="price">380</span>&nbsp;&nbsp;(組)
+                        </p>
+                        <br>
+                    </div>
+                    <div class="d-flex col-12 col-lg-8  my-lg-5 right-box">
+                        <form id="buyform">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name"><br>
+                            <label for="phone">連絡電話</label>
+                            <input type="text" id="phone" name="phone"><br>
+                            <label for="address">地址</label>
+                            <input type="text" id="address" name="address"><br>
+                            <div id="selectblock d-flex">
+                                    <label for="count col-2">購買數量</label>
+                                    <select id="quantity" class="select1">
+                                        <option class="">選擇購買數量</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    <br class="brshowinmobile">
+                                    <label class="buysecondlabel" for="size">購買規格</label>
+                                    <select id="specification" class="select2">
+                                        <option>深層導水盤</option>
+                                        <option>規格1</option>
+                                        <option>規格2</option>
+                                        <option>規格3</option>
+                                    </select>
+                            </div>
+                            <label for="others" id="othersLabel">備註</label>
+                            <textarea type="text" id="others" name="others"></textarea><br>
+                            <label for="check">驗證碼</label>
+                            <input type="text" id="code_input" class="check" value="" />
+                            <div id="v_container"></div>
+                            <br><br>
+                            <div class="d-flex justify-content-end"><button id="my_button">確認送出</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section10" id="section10">
+            <div class="container-fluid p-0">
+                <div class=" d-flex justify-content-around">
+                        <a class="awithlink" target="_blank" href="https://uni-dry.com/"><img src="./image/h01.png"
+                                alt="樂泥科技"></a>
+                        <a class="awithlink" target="_blank"
+                            href="https://www.facebook.com/groups/521503622636682/"><img src="./image/h02.png"
+                                alt="FB"></a>
+                        <a class="awithlink" target="_blank" href="https://www.instagram.com/unidrytech/"><img
+                                src="./image/h03.png" alt="IG"></a>
+                        <a class="awithlink" target="_blank" href="https://www.youtube.com/watch?v=Qf7xl5LZFV4"><img
+                                src="./image/h04.png" alt="youtube"></a>
+                        <a><img src="./image/h05.png" alt="@688yjcik"></a>
+                        <a><img src="./image/h06.png" alt="line"></a>
+                </div>
+            </div>
+        </section>
+        <div>
+            <a href="#section9" class="btn-buy fix-btns">
+                我要購買
+            </a>
+            <a href="#section10" class="btn-contact fix-btns">
+                聯絡客服
+            </a>
+            <a id="goTop" href="" class="btn-top fix-btns">
+                <svg class="arrow up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="5 0 50 80" xml:space="preserve">
+                    <polyline fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"
+                        stroke-linejoin="round" points="
+              0.375, 35.375 28.375, 0.375 58.67, 35.375 " />
+                </svg>
+            </a>
+        </div>
+    </main>
+    <footer class="d-flex flex-column align-items-center text-white">
+        <div class="d-flex  flex-column justify-content-between">
+            <span><img src="./image/icon_01.png" alt="">&nbsp;台中市北屯區水景街41號</span>
+            <span><img src="./image/icon_02.png" alt="">&nbsp;電話：04-24368500&nbsp;&nbsp;|<br class="brshowinmobile">&nbsp;&nbsp;客服專線：0956-956-868</span>
+            <span><img src="./image/icon_03.png" alt="">&nbsp;unidrytech@gmail.com</span>
+        </div>
+        <hr class="greyline">
+        <p>《樂泥科技 Uni Dry》版權所有 © 2022</p>
+    </footer>
+    <script crossorigin="anonymous" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" src="https://lib.baomitu.com/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $("#hamberger span").addClass("originspan");
+
+        let hamburgerclicked = false;
+        $("#nav-check").click(function() {
+if(hamburgerclicked == true) hamburgerclicked=false;
+else hamburgerclicked=true;
+
+if(hamburgerclicked){
+        $("#hamberger span").removeClass("originspan");
+  $("#hamberger").addClass("hamberger");
+  $("#hamberger span:nth-child(1)").addClass("hambergerspan1");
+  $("#hamberger span:nth-child(2)").addClass("hambergerspan2");
+  $("#hamberger span:nth-child(3)").addClass("hambergerspan3");
+}else{
+    $("#hamberger span").addClass("originspan");
+  $("#hamberger").removeClass("hamberger");
+  $("#hamberger span:nth-child(1)").removeClass("hambergerspan1");
+  $("#hamberger span:nth-child(2)").removeClass("hambergerspan2");
+  $("#hamberger span:nth-child(3)").removeClass("hambergerspan3"); 
+}
+});
+
+$( "#buyform" ).on( "submit", function( event ) {
+  event.preventDefault();
+
+
+
+let name = $("#name").val();
+let phone = $("#phone").val();
+let address = $("#address").val();
+let quantity = $("#quantity option:selected").val();
+let specification = $("#specification option:selected").val();
+let others = $("#others").val();
+
+if(name =="") {alert("請填寫姓名"); return};
+if(phone =="") {alert("請填寫電話"); return};
+if(address =="") {alert("請填寫地址"); return};
+if(quantity.includes("選擇")) {alert("請選擇購買數量"); return};
+if(specification.includes("深層")) {alert("請選擇購買規格"); return};
+
+if(verifySuccess!= true){
+    alert("驗證碼輸入錯誤");
+    return
+}
+
+let postdata = {
+  "clientId": "A0000001",
+  "clientPassword": "1qazxsw23edc",
+  "from": "unidrytech@gmail.com",
+  "to": [
+    "unidrytech@gmail.com"
+  ],
+  "bcc": ["unidrytech@gmail.com",
+  "rufengdesign@gmail.com"],
+  "subject": "新訂單通知",
+  "bodyHtmlContent":`<table style="background-color:white;color:black;width:80%;font-size:30px;border-collapse:collapse; ">
+  <tbody>
+    <tr >
+      <td style="width:30%;border:1px solid grey;font-weight:800;">姓名</td>
+      <td style="width:370%;border:1px solid grey;">${name}</td>
+    </tr>
+    <tr style="background-color:lightgrey;">
+      <td style="width:30%;border:1px solid grey;font-weight:800;">聯絡電話</td>
+      <td style="width:70%;border:1px solid grey;">${phone}</td>
+    </tr>
+    <tr>
+      <td style="width:30%;border:1px solid grey;font-weight:800;">地址</td>
+      <td style="width:70%;border:1px solid grey;">${address}</td>
+    </tr>
+    <tr style="background-color:orange;">
+      <td style="width:30%;border:1px solid grey;font-weight:800;">購買數量</td>
+      <td style="width:70%;border:1px solid grey;">${quantity}</td>
+    </tr>
+        <tr style="background-color:orange;">
+      <td style="width:30%;border:1px solid grey;font-weight:800;">購買規格</td>
+      <td style="width:70%;border:1px solid grey;">${specification}</td>
+    </tr>
+            <tr>
+      <td style="width:30%;border:1px solid grey;font-weight:800;">備註</td>
+      <td style="width:70%;border:1px solid grey;">${others}</td>
+    </tr>
+  </tbody>
+</table>`,
+  "bodyTextContent": `姓名${name};聯絡電話${phone};地址${address};購買數量${quantity};購買規格${specification};備註${others};`
+};
+let successmessage;
+$.ajax({
+    type: 'POST',
+    url: 'http://mail.beedemo.asia/api/MailTransfer',
+    data: JSON.stringify(postdata), // or JSON.stringify ({name: 'jonas'}),
+    contentType: "application/json",
+    dataType: 'json'
+});
+
+alert("訂購資料已送出!");
+
+$("#name").val("");
+$("#phone").val("");
+$("#address").val("");
+$("#quantity option:selected").val("");
+$("#specification option:selected").val("");
+$("#others").val("");
+$("#code_input").val("");
+});
+
+
+        //自定參數呼叫
+        $(function () {
+            AOS.init({
+                offset: 0,
+                easing: 'ease-in-sine',
+                delay: 500,
+                once: false,
+            });
+        })
+
+
+        !(function (window, document) {
+            var size = 5;//Set the length of the verification code
+            function GVerify(options) {//Create a graphic verification code object and receive the options object as a parameter
+                this.options = {//Default options parameter value
+                    id: "", //Container Id
+                    canvasId: "verifyCanvas", //canvas ID
+                    width: "100", //default canvas width
+                    height: "30", //default canvas height
+                    type: "blend", //default type of graphic verification code blend: mixed type of numbers and letters, number: pure numbers, letter: pure letters
+                    code: "",
+                }
+                if (Object.prototype.toString.call(options) == "[object Object]") {//Determine the type of incoming parameters
+                    for (var i in options) {//Modify the default parameter values ​​according to the parameters passed in
+                        this.options[i] = options[i];
+                    }
+                } else {
+                    this.options.id = options;
+                }
+                this.options.numArr = "0,1,2,3,4,5,6,7,8,9".split(",");
+                this.options.letterArr = getAllLetter();
+                this._init();
+                this.refresh();
+            }
+            GVerify.prototype = {
+                /**version number**/
+                version: '1.0.0',
+                /**Initialization method**/
+                _init: function () {
+                    var con = document.getElementById(this.options.id);
+                    var canvas = document.createElement("canvas");
+                    this.options.width = con.offsetWidth > 0 ? con.offsetWidth : "100";
+                    this.options.height = con.offsetHeight > 0 ? con.offsetHeight : "30";
+                    canvas.id = this.options.canvasId;
+                    canvas.width = this.options.width;
+                    canvas.height = this.options.height;
+                    canvas.style.cursor = "pointer";
+                    canvas.innerHTML = "Your browser version does not support canvas";
+                    con.appendChild(canvas);
+                    var parent = this;
+                    canvas.onclick = function () {
+                        parent.refresh();
+                    }
+                },
+                /**Generate verification code**/
+                refresh: function () {
+                    this.options.code = "";
+                    var canvas = document.getElementById(this.options.canvasId);
+                    if (canvas.getContext) {
+                        var ctx = canvas.getContext('2d');
+                    } else {
+                        return;
+                    }
+                    ctx.textBaseline = "middle";
+                    ctx.fillStyle = randomColor(180, 240);
+                    ctx.fillRect(0, 0, this.options.width, this.options.height);
+                    if (this.options.type == "blend") {//Determine the verification code type
+                        var txtArr = this.options.numArr.concat(this.options.letterArr);
+                    } else if (this.options.type == "number") {
+                        var txtArr = this.options.numArr;
+                    } else {
+                        var txtArr = this.options.letterArr;
+                    }
+                    for (var i = 1; i <= size; i++) {
+                        var txt = txtArr[randomNum(0, txtArr.length)];
+                        this.options.code += txt;
+                        ctx.font = randomNum(this.options.height / 2, this.options.height) + 'px SimHei'; // randomly generate font size
+                        ctx.fillStyle = randomColor(50, 160); //Generate font color randomly
+                        ctx.shadowOffsetX = randomNum(-3, 3);
+                        ctx.shadowOffsetY = randomNum(-3, 3);
+                        ctx.shadowBlur = randomNum(-3, 3);
+                        ctx.shadowColor = "rgba(0, 0, 0, 0.3)";
+                        var x = this.options.width / (size + 1) * i;
+                        var y = this.options.height / 2;
+                        var deg = randomNum(-30, 30);
+                        /**Set the rotation angle and coordinate origin**/
+                        ctx.translate(x, y);
+                        ctx.rotate(deg * Math.PI / 180);
+                        ctx.fillText(txt, 0, 0);
+                        /**Restore rotation angle and coordinate origin**/
+                        ctx.rotate(-deg * Math.PI / 180);
+                        ctx.translate(-x, -y);
+                    }
+                    /**Draw interference lines**/
+                    for (var i = 0; i < 4; i++) {
+                        ctx.strokeStyle = randomColor(40, 180);
+                        ctx.beginPath();
+                        ctx.moveTo(randomNum(0, this.options.width), randomNum(0, this.options.height));
+                        ctx.lineTo(randomNum(0, this.options.width), randomNum(0, this.options.height));
+                        ctx.stroke();
+                    }
+                    /**Draw interference points**/
+                    for (var i = 0; i < this.options.width / 4; i++) {
+                        ctx.fillStyle = randomColor(0, 255);
+                        ctx.beginPath();
+                        ctx.arc(randomNum(0, this.options.width), randomNum(0, this.options.height), 1, 0, 2 * Math.PI);
+                        ctx.fill();
+                    }
+                },
+                /**Verification code**/
+                validate: function (code) {
+                    var code = code.toLowerCase();
+                    var v_code = this.options.code.toLowerCase();
+                    if (code == v_code) {
+                        return true;
+                    } else {
+                        this.refresh();
+                        return false;
+                    }
+                }
+            }
+
+
+            /**Generate an array of letters**/
+            function getAllLetter() {
+                var letterStr = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w, x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V, W,X,Y,Z";
+                return letterStr.split(",");
+            }
+            /**Generate a random number**/
+            function randomNum(min, max) {
+                return Math.floor(Math.random() * (max - min) + min);
+            }
+            /**Generate a random color**/
+            function randomColor(min, max) {
+                var r = randomNum(min, max);
+                var g = randomNum(min, max);
+                var b = randomNum(min, max);
+                return "rgb(" + r + "," + g + "," + b + ")";
+            }
+            window.GVerify = GVerify;
+        })(window, document);
+
+let verifySuccess;
+
+        var verifyCode = new GVerify("v_container");
+        document.getElementById("my_button").onclick = function () {
+            var res = verifyCode.validate(document.getElementById("code_input").value);
+            if (res) {
+                verifySuccess = true;
+            } else {
+                verifySuccess = false;
+            }
+        }
+
+    </script>
+</body>
+</html>
