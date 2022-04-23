@@ -316,7 +316,6 @@ p{
       padding: 5px 20px;
       background-color: $secondary-color-orange;
       color: white;
-      // font-size: 18px;
       @media only screen and (max-width: 768px)  {
         font-size: 20px;
         line-height: 20px;
@@ -447,24 +446,25 @@ p{
 .section10{
   background-image:url("../image/bg03.png") ;
   padding: 50px 20px;
+  img{
+    width: 100%;
+  }
   @media only screen and (max-width: 1000px)  {
     padding: 30px 15px;
         }
-        img{
-          width: 100%;
-        }
+
   a{
     width: 100%;
-    padding: 0 10px;
+    img{
+    width: 90%;
+    }
     @media only screen and (max-width: 1000px)  {
-      padding: 0 5px;
           }
   }
   .awithlink{
     position: relative;
     img{
       position: absolute;
-    width: 90%;
     }
   }
   .awithlink img:last-child{
