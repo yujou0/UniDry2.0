@@ -142,7 +142,6 @@ section , footer{
     text-align: center;
     color: white;
     width: 100%;
-    // 
   }
   .nav > .nav-links > a:not(:last-child) { 
     border-bottom: white 1px solid;
@@ -152,7 +151,7 @@ section , footer{
   }
   .nav > #nav-check:checked ~ .nav-links {
     overflow-y: auto;
-    height: 36vh;
+    height: 46vh;
   }
 }
 

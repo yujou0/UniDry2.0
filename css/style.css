@@ -540,7 +540,7 @@ footer {
   }
   .nav > #nav-check:checked ~ .nav-links {
     overflow-y: auto;
-    height: 36vh;
+    height: 46vh;
   }
 }
 
