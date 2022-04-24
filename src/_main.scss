@@ -355,11 +355,11 @@ p{
       text-align: justify;
       text-align-last: justify;
       @media only screen and (max-width: 768px)  {
-      width: 80px;
         font-size: 16px;
         width: 70px;
         margin: 0;
         vertical-align: top;
+        padding-bottom: 5px;
       }
 
     }

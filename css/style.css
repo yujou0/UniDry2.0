@@ -820,11 +820,11 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .section9 form label {
-    width: 80px;
     font-size: 16px;
     width: 70px;
     margin: 0;
     vertical-align: top;
+    padding-bottom: 5px;
   }
 }
 
