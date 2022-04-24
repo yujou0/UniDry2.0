@@ -114,7 +114,7 @@
                             <label for="address">地址</label>
                             <input type="text" id="address" name="address"><br>
                             <div id="selectblock d-flex">
-                                    <label for="count col-2">購買數量</label>
+                                    <label id="quantitylabel" for="count col-2">購買數量</label>
                                     <select id="quantity" class="select1">
                                         <option class="">選擇購買數量</option>
                                         <option>1</option>
@@ -122,7 +122,7 @@
                                         <option>3</option>
                                     </select>
                                     <br class="brshowinmobile">
-                                    <label class="buysecondlabel" for="size">購買規格</label>
+                                    <label id="sizelabel" class="buysecondlabel" for="size">購買規格</label>
                                     <select id="specification" class="select2">
                                         <option>深層導水盤</option>
                                         <option>規格1</option>
@@ -131,10 +131,10 @@
                                     </select>
                             </div>
                             <label for="others" id="othersLabel">備註</label>
-                            <textarea type="text" id="others" name="others"></textarea><br>
+                              <textarea type="text" id="others" name="others"></textarea><br>
                             <label for="check">驗證碼</label>
                             <input type="text" id="code_input" class="check" value="" />
-                            <div id="v_container"></div>
+                                <div id="v_container" ></div>
                             <br><br>
                             <div class="d-flex justify-content-end"><button id="my_button">確認送出</button></div>
                         </form>
@@ -188,7 +188,7 @@
     <footer class="d-flex flex-column align-items-center text-white">
         <div class="d-flex  flex-column justify-content-between">
             <span><img src="./image/icon_01.png" alt="">&nbsp;台中市北屯區水景街41號</span>
-            <span><img src="./image/icon_02.png" alt="">&nbsp;電話：04-24368500&nbsp;&nbsp;|<br class="brshowinmobile">&nbsp;&nbsp;客服專線：0956-956-868</span>
+            <span><img src="./image/icon_02.png" alt="">&nbsp;電話：04-24368500&nbsp;&nbsp;|<br class="brshowinmobile"><span class="servicenumber">&nbsp;&nbsp;客服專線：0956-956-868</span></span>
             <span><img src="./image/icon_03.png" alt="">&nbsp;unidrytech@gmail.com</span>
         </div>
         <hr class="greyline">
@@ -309,17 +309,6 @@ $("#code_input").val("");
 });
 
 
-        //自定參數呼叫
-        $(function () {
-            AOS.init({
-                offset: 0,
-                easing: 'ease-in-sine',
-                delay: 500,
-                once: false,
-            });
-        })
-
-
         !(function (window, document) {
             var size = 5;//Set the length of the verification code
             function GVerify(options) {//Create a graphic verification code object and receive the options object as a parameter
@@ -355,6 +344,7 @@ $("#code_input").val("");
                     canvas.id = this.options.canvasId;
                     canvas.width = this.options.width;
                     canvas.height = this.options.height;
+                    canvas.padding = this.options.paddingtop;
                     canvas.style.cursor = "pointer";
                     canvas.innerHTML = "Your browser version does not support canvas";
                     con.appendChild(canvas);

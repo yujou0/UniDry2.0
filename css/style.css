@@ -416,13 +416,13 @@ footer {
 
 @media only screen and (max-width: 1200px) {
   .nav .logo {
-    width: 80%;
+    width: 70%;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .nav .logo {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -828,6 +828,11 @@ footer {
   }
 }
 
+.section9 form #quantitylabel, .section9 form #sizelabel {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
 .section9 form input {
   color: white;
   width: calc(100% - 150px);
@@ -900,6 +905,13 @@ footer {
 .section9 form #v_container {
   width: 175px;
   display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  .section9 form #v_container {
+    width: 120px;
+    height: 25px;
+  }
 }
 
 .section9 form button {
@@ -988,7 +1000,7 @@ footer {
   width: 75px;
   height: 75px;
   margin: 0;
-  padding: 20px 20px;
+  padding: 20px;
   border: 1px solid white;
   border-radius: 2px;
   font-weight: bold;
@@ -996,6 +1008,14 @@ footer {
   border-radius: 50%;
   text-align: center;
   line-height: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .fix-btns {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .fix-btns:hover {
@@ -1008,9 +1028,21 @@ footer {
   bottom: 1.2em;
 }
 
+@media only screen and (max-width: 768px) {
+  .btn-top {
+    bottom: 2.2em;
+  }
+}
+
 .btn-contact {
   right: 1.2em;
   bottom: 11.2em;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn-contact {
+    bottom: 10.2em;
+  }
 }
 
 .btn-buy {
@@ -1060,6 +1092,12 @@ footer span {
 footer hr.greyline {
   border: 1px solid #3c3c3c;
   width: 85%;
+}
+
+@media only screen and (max-width: 450px) {
+  footer .servicenumber {
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
