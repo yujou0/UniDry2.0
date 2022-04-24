@@ -12,23 +12,24 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
-        <div class="nav d-lg-flex justify-content-center">
+        <div class="nav">
             <input type="checkbox" id="nav-check">
             <div class="nav-header header-left  ">
-              <div class="nav-title">
-                <h1><img class="logo" src="./image/logo.png" alt="UniDry"></h1>
-              </div>
+                <div class="nav-title">
+                    <h1 class=" d-flex justify-content-center"><img class="logo" src="./image/logo.png" alt="UniDry"></h1>
+                </div>
             </div>
             <div class="nav-btn">
-              <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
+                <label id="hamberger" for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
             </div>
-            <div class="nav-links header-right   d-lg-flex justify-content-end">
+            <div class="nav-links">
                 <a class="nav-link" href="#section2" target="_self">影片介紹</a>
                 <a class="nav-link" href="#section3" target="_self">產品優勢</a>
                 <a class="nav-link" href="#section4" target="_self">發明專利</a>
@@ -38,176 +39,53 @@
                 <a class="nav-link" href="#section9" target="_self">購買專區</a>
                 <a class="nav-link" href="#section10" target="_self">聯絡我們</a>
             </div>
-          </div>
+        </div>
     </header>
     <main>
         <section class="section1">
             <div class="container-fluid p-0">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active hideinmobile"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="hideinmobile"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div id="banner01" class="carousel-item active">
-                            <img class="showinmobile" src="./image/banner_02_s.jpg" alt="First slide">
-                            <img class="hideinmobile" src="./image/banner_02.jpg" alt="First slide">
-                        </div>
-                        <div id="banner02" class="carousel-item">
-                            <img class="showinmobile" src="./image/banner_01_s.jpg" alt="Second slide">
-                            <img class="hideinmobile" src="./image/banner_01.jpg" alt="Second slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <img src="./image/a01.png"hideinmobile alt="" srcset="">
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <img src="./image/a02.png" alt="" srcset="">
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+                <img class="mb-1" src="./image/banner_01.jpg" alt="Second slide">
+                <img src="./image/banner_02.jpg" alt="First slide">
             </div>
         </section>
         <section class="section2" id="section2">
             <div class="container-fluid p-0">
-                <div class="d-lg-flex justify-content-center m-auto ">
-                    <div class="d-flex flex-column justify-content-center col-12 col-lg-6 my-5">
+                <div class="d-lg-flex flex-column align-items-center justify-content-center ">
+                    <div class="d-flex flex-column align-items-center justify-content-center col-lg-6">
                         <img class="section2_title" src="./image/t01.png" alt="">
-                        <a class="section2_btn" href="https://www.youtube.com/watch?v=Qf7xl5LZFV4">
-                            觀看形象影片
-                        </a>
                     </div>
-                    <div class="d-lg-flex flex-column justify-content-center col-md-12 col-lg-6">
-                        <iframe src="https://www.youtube.com/embed/Qf7xl5LZFV4?controls=0&amp;start=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="d-flex flex-column align-items-center justify-content-center col-lg-8 mt-3">
+                        <iframe src="https://www.youtube.com/embed/Qf7xl5LZFV4?controls=0&amp;start=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section3" id="section3">
-            <div class="container-fluid p-0 ">
-                <div class="d-flex flex-column align-items-center mb-5">
-                    <img class="titlepic" src="./image/tt01.png" alt="">
-                </div>
-                <div class="d-lg-flex section3-flex-lg-row justify-content-around">
-                    <div class="d-flex  align-items-center  boxfortwopics">
-                        <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section3-pics"><img
-                                src="./image/aa01.png" alt="">
-                            <h4>發明專利</h4>
-                        </div>
-                        <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section3-pics"><img
-                                src="./image/aa02.png" alt="">
-                            <h4>一勞永逸</h4>
-                        </div>
-                    </div>
-                    <div class="d-flex  align-items-center  boxfortwopics">
-                        <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section3-pics"><img
-                                src="./image/aa03.png" alt="">
-                            <h4>施工簡易</h4>
-                        </div>
-                        <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section3-pics"><img
-                                src="./image/aa04.png" alt="">
-                            <h4>內外皆宜</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img src="./image/a01.jpg" alt="">
         </section>
         <section class="section4" id="section4">
-            <div class="container-fluid p-0">
-                <div class="d-lg-flex justify-content-center m-auto ">
-                    <div class="d-flex justify-content-center col-12 col-lg-6 my-5">
-                        <img src="./image/c01.png" alt="">
-                    </div>
-                    <div class="d-lg-flex flex-column justify-content-center col-md-12 col-lg-6">
-                        <img class="w-50" src="./image/cc01.png" alt="">
-                        <h4 class="my-3"><span>發明書證號：<span class="color-red">I614443</span>號</span><br>
-                            發明名稱：排水器及其施工方法<br>
-                            專利權期間：自2018年2月11日至「2036年10月10日止」
-                        </h4>
-                    </div>
-                </div>
-            </div>
+            <img src="./image/a02.jpg" alt="">
         </section>
         <section class="section5" id="section5">
-            <div class="container-fluid p-0 d-lg-flex flex-lg-row flex-md-column">
-                <img class="col-lg-6 p-0 m-0" src="./image/d01.png" alt="Before">
-                <div class="col-lg-6 p-0 m-0 position-relative">
-                    <img src="./image/d03.png" alt="After">
-                    <img data-aos="fade-up" id="check" src="./image/d04.png" alt="">
-                </div>
-            </div>
+            <img class="mb-1" src="./image/a03.jpg" alt="">
         </section>
         <section class="section6" id="section6">
-            <div class="container-fluid p-0 ">
-                <img src="./image/e01.png" alt="After">
-            </div>
+            <img class="mb-1" src="./image/a04.jpg" alt="">
         </section>
         <section class="section7" id="section7">
-            <div class="d-flex flex-column align-items-center mb-5">
-                <img class="titlepic" src="./image/tt02.png" alt="">
-            </div>
-            <div class="d-lg-flex section7-flex-lg-row justify-content-around">
-                <div class="d-flex  boxfortwopics">
-                    <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section7-pics"><img
-                            src="./image/f01.png" alt="">
-                        <div class="d-flex mx-lg-5">
-                            <h2>1<span>/</span></h2>
-                            <h4>確認地不漏安裝位置並移除預留的水管。</h4>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section7-pics"><img
-                            src="./image/f02.png" alt="">
-                        <div class="d-flex mx-lg-5">
-                            <h2>2<span>/</span></h2>
-                            <h4>修除RC層約 2 cm，安裝地不漏時，底部可先塗上矽利康，再將其崁入水管黏著固定即可。</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex  boxfortwopics">
-                    <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section7-pics"><img
-                            src="./image/f03.png" alt="">
-                        <div class="d-flex mx-lg-5">
-                            <h2>3<span>/</span></h2>
-                            <h4>鋪上防水底層至地不漏內，放置上蓋或是防塵上蓋，即可完成。</h4>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-center col-md-6 col-lg-6 section7-pics"><img
-                            src="./image/f04.png" alt="">
-                        <div class="d-flex mx-lg-5">
-                            <h2>4<span>/</span></h2>
-                            <h4>如一般施工，打底後進行表面建材鋪設，及安裝表面落水頭。</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img src="./image/a05.jpg" alt="">
         </section>
         <section class="section8" id="section8">
-            <div class="container-fluid p-0">
-                <div class="d-lg-flex justify-content-center m-auto ">
-                    <div class=" my-5  col-md-12 col-lg-6 left-box">
-                        <h3>關於樂泥</h3>
-                        <p>
-                            ｢我對建築的熱誠，已不僅止於美學，而是更深入各項工種與細節，學無止盡！｣
-                        </p>
-                        <p class="text-right">樂泥科技 楊董事長</p>
-                        <p>
-                            大家都為買房子而努力，使我們對建築有使命，還有對家庭的愛，用志業成就事業！因為有心，更用心研發。<br>
-                            樂泥科技，為樂活和能感動的建築，讓您我的家更美好而創立。
-                        </p>
-                    </div>
-                    <div class="d-flex col-12 col-lg-6 my-5 right-box">
-                        <img src="./image/g01.png" alt="">
-                        <img src="./image/g02.png" alt="">
-                    </div>
-
-                </div>
-            </div>
+            <img src="./image/a06.jpg" alt="">
+            <img src="./image/a07.jpg" alt="">
         </section>
-        <section class="section9" id="section9">
+        <section class="section9 mb-1" id="section9">
             <div class="container-fluid p-0">
-                <div class="d-lg-flex justify-content-center m-auto left-box">
-                    <div class=" my-lg-5  col-md-12 col-lg-6 payway">
+                <div class="d-lg-flex flex-column align-items-center justify-content-center m-auto left-box">
+                    <div class=" my-lg-5  col-md-12 col-lg-8 payway">
                         <h4>付款方式</h4>
                         <h5>線上刷卡</h5>
                         <p>
@@ -215,37 +93,43 @@
                             各家銀行的VISA、MasterCard及JCB皆可使用
                         </p>
                         <div class="d-flex justify-content-end">
-                            <a href=""><img src="./image/buy_icon.png" alt="">&nbsp;&nbsp;我要購買</a>
+                            <a href=""><img src="./image/icon_buy.png" alt="">&nbsp;&nbsp;我要購買</a>
                         </div>
                         <br><br>
                         <h5>貨到付款</h5>
                         <p>
-                            請填寫右方表單，由配送人員收取訂單的金額<br>
-                            深層導水盤售價：&nbsp;<span class="price">380</span>&nbsp;&nbsp;(個)
+                            請填寫下方表單，由配送人員收取訂單的金額<br>
                         </p>
+                        <p class="showtheprice">
+                            深層導水盤售價：&nbsp;<span class="price">380</span>&nbsp;&nbsp;(組)
+                        </p>
+                        <br>
                     </div>
-                    <div class="d-flex col-12 col-lg-6  my-lg-5 right-box">
-                        <form class="ml-lg-5">
+                    <div class="d-flex col-12 col-lg-8  my-lg-5 right-box">
+                        <form id="buyform">
                             <label for="name">姓名</label>
                             <input type="text" id="name" name="name"><br>
                             <label for="phone">連絡電話</label>
                             <input type="text" id="phone" name="phone"><br>
                             <label for="address">地址</label>
                             <input type="text" id="address" name="address"><br>
-                            <label for="count">購買數量</label>
-                            <select class="select1">
-                                <option>選擇購買數量</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select><br class="brbetweenselect">
-                            <label for="size">購買規格</label>
-                            <select class="select2">
-                                <option>深層導水盤</option>
-                                <option>...</option>
-                                <option>...</option>
-                                <option>...</option>
-                            </select><br>
+                            <div id="selectblock d-flex">
+                                    <label for="count col-2">購買數量</label>
+                                    <select id="quantity" class="select1">
+                                        <option class="">選擇購買數量</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                    <br class="brshowinmobile">
+                                    <label class="buysecondlabel" for="size">購買規格</label>
+                                    <select id="specification" class="select2">
+                                        <option>深層導水盤</option>
+                                        <option>規格1</option>
+                                        <option>規格2</option>
+                                        <option>規格3</option>
+                                    </select>
+                            </div>
                             <label for="others" id="othersLabel">備註</label>
                             <textarea type="text" id="others" name="others"></textarea><br>
                             <label for="check">驗證碼</label>
@@ -260,50 +144,57 @@
         </section>
         <section class="section10" id="section10">
             <div class="container-fluid p-0">
-                <div class=" section10-flex-lg-row justify-content-center">
-                    <div class="d-flex p-0">
-                        <a class="awithlink" target="_blank" href="https://uni-dry.com/" ><img src="./image/h01.png" alt="樂泥科技"></a>
-                        <a class="awithlink" target="_blank" href="https://www.facebook.com/groups/521503622636682/"><img src="./image/h02.png" alt="FB"></a>
-                    </div>
-                    <div class="d-flex p-0">
-                        <a class="awithlink" target="_blank" href="https://www.instagram.com/unidrytech/"><img src="./image/h03.png" alt="IG"></a>
-                        <a class="awithlink" target="_blank" href="https://www.youtube.com/watch?v=Qf7xl5LZFV4"><img src="./image/h04.png" alt="youtube"></a>
-                    </div>
-                    <div class="d-flex p-0">
+                <div class=" d-flex justify-content-around">
+                        <a class="awithlink" target="_blank" href="https://uni-dry.com/">
+                            <img src="./image/h01.png"
+                            alt="樂泥科技">
+                            <img src="./image/h01_h.png"
+                            alt="樂泥科技">
+                            </a>
+                        <a class="awithlink" target="_blank"
+                            href="https://www.facebook.com/groups/521503622636682/"><img src="./image/h02.png"
+                                alt="FB">
+                                <img src="./image/h02_h.png"
+                                alt="FB"></a>
+                        <a class="awithlink" target="_blank" href="https://www.instagram.com/unidrytech/"><img
+                                src="./image/h03.png" alt="IG"><img
+                                src="./image/h03_h.png" alt="IG"></a>
+                        <a class="awithlink" target="_blank" href="https://www.youtube.com/watch?v=Qf7xl5LZFV4"><img
+                                src="./image/h04.png" alt="youtube">
+                                <img
+                                src="./image/h04_h.png" alt="youtube"></a>
                         <a><img src="./image/h05.png" alt="@688yjcik"></a>
                         <a><img src="./image/h06.png" alt="line"></a>
-                    </div>
                 </div>
             </div>
         </section>
         <div>
             <a href="#section9" class="btn-buy fix-btns">
-我要購買
-              </a>
-              <a href="#section10" class="btn-contact fix-btns">
-聯絡客服
-              </a>
-              <a id="goTop" href=""  class="btn-top fix-btns">
-                <svg class="arrow up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="5 0 50 80" xml:space="preserve">
-                  <polyline fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="
+                我要購買
+            </a>
+            <a href="#section10" class="btn-contact fix-btns">
+                聯絡客服
+            </a>
+            <a id="goTop" href="" class="btn-top fix-btns">
+                <svg class="arrow up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="5 0 50 80" xml:space="preserve">
+                    <polyline fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"
+                        stroke-linejoin="round" points="
               0.375, 35.375 28.375, 0.375 58.67, 35.375 " />
                 </svg>
-              </a>
+            </a>
         </div>
     </main>
     <footer class="d-flex flex-column align-items-center text-white">
-        <div class="d-lg-flex imgbox justify-content-between">
-<span><img src="./image/icon_01.png" alt="">&nbsp;台中市北屯區水景街41號</span>&nbsp;&nbsp;<br class="brbetweenselect">
-<span><img src="./image/icon_02.png" alt="">&nbsp;電話：04-24368500</span><br class="brbetweenselect"><span class="d-none d-lg-block">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-<span>客服專線：0956-956-868</span>&nbsp;&nbsp;<br class="brbetweenselect">
-<span><img src="./image/icon_03.png" alt="">&nbsp;unidrytech@gmail.com</span>
+        <div class="d-flex  flex-column justify-content-between">
+            <span><img src="./image/icon_01.png" alt="">&nbsp;台中市北屯區水景街41號</span>
+            <span><img src="./image/icon_02.png" alt="">&nbsp;電話：04-24368500&nbsp;&nbsp;|<br class="brshowinmobile">&nbsp;&nbsp;客服專線：0956-956-868</span>
+            <span><img src="./image/icon_03.png" alt="">&nbsp;unidrytech@gmail.com</span>
         </div>
         <hr class="greyline">
         <p>《樂泥科技 Uni Dry》版權所有 © 2022</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" src="https://lib.baomitu.com/jquery/3.6.0/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -312,6 +203,112 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        $("#hamberger span").addClass("originspan");
+
+        let hamburgerclicked = false;
+        $("#nav-check").click(function() {
+if(hamburgerclicked == true) hamburgerclicked=false;
+else hamburgerclicked=true;
+
+if(hamburgerclicked){
+        $("#hamberger span").removeClass("originspan");
+  $("#hamberger").addClass("hamberger");
+  $("#hamberger span:nth-child(1)").addClass("hambergerspan1");
+  $("#hamberger span:nth-child(2)").addClass("hambergerspan2");
+  $("#hamberger span:nth-child(3)").addClass("hambergerspan3");
+}else{
+    $("#hamberger span").addClass("originspan");
+  $("#hamberger").removeClass("hamberger");
+  $("#hamberger span:nth-child(1)").removeClass("hambergerspan1");
+  $("#hamberger span:nth-child(2)").removeClass("hambergerspan2");
+  $("#hamberger span:nth-child(3)").removeClass("hambergerspan3"); 
+}
+});
+
+$( "#buyform" ).on( "submit", function( event ) {
+  event.preventDefault();
+
+
+
+let name = $("#name").val();
+let phone = $("#phone").val();
+let address = $("#address").val();
+let quantity = $("#quantity option:selected").val();
+let specification = $("#specification option:selected").val();
+let others = $("#others").val();
+
+if(name =="") {alert("請填寫姓名"); return};
+if(phone =="") {alert("請填寫電話"); return};
+if(address =="") {alert("請填寫地址"); return};
+if(quantity.includes("選擇")) {alert("請選擇購買數量"); return};
+if(specification.includes("深層")) {alert("請選擇購買規格"); return};
+
+if(verifySuccess!= true){
+    alert("驗證碼輸入錯誤");
+    return
+}
+
+let postdata = {
+  "clientId": "A0000001",
+  "clientPassword": "1qazxsw23edc",
+  "from": "unidrytech@gmail.com",
+  "to": [
+    "unidrytech@gmail.com"
+  ],
+  "bcc": ["unidrytech@gmail.com",
+  "rufengdesign@gmail.com"],
+  "subject": "新訂單通知",
+  "bodyHtmlContent":`<table style="background-color:white;color:black;width:80%;font-size:30px;border-collapse:collapse; ">
+  <tbody>
+    <tr >
+      <td style="width:30%;border:1px solid grey;font-weight:800;">姓名</td>
+      <td style="width:370%;border:1px solid grey;">${name}</td>
+    </tr>
+    <tr style="background-color:lightgrey;">
+      <td style="width:30%;border:1px solid grey;font-weight:800;">聯絡電話</td>
+      <td style="width:70%;border:1px solid grey;">${phone}</td>
+    </tr>
+    <tr>
+      <td style="width:30%;border:1px solid grey;font-weight:800;">地址</td>
+      <td style="width:70%;border:1px solid grey;">${address}</td>
+    </tr>
+    <tr style="background-color:orange;">
+      <td style="width:30%;border:1px solid grey;font-weight:800;">購買數量</td>
+      <td style="width:70%;border:1px solid grey;">${quantity}</td>
+    </tr>
+        <tr style="background-color:orange;">
+      <td style="width:30%;border:1px solid grey;font-weight:800;">購買規格</td>
+      <td style="width:70%;border:1px solid grey;">${specification}</td>
+    </tr>
+            <tr>
+      <td style="width:30%;border:1px solid grey;font-weight:800;">備註</td>
+      <td style="width:70%;border:1px solid grey;">${others}</td>
+    </tr>
+  </tbody>
+</table>`,
+  "bodyTextContent": `姓名${name};聯絡電話${phone};地址${address};購買數量${quantity};購買規格${specification};備註${others};`
+};
+let successmessage;
+$.ajax({
+    type: 'POST',
+    url: 'http://mail.beedemo.asia/api/MailTransfer',
+    data: JSON.stringify(postdata), // or JSON.stringify ({name: 'jonas'}),
+    contentType: "application/json",
+    dataType: 'json'
+});
+
+alert("訂購資料已送出!");
+
+$("#name").val("");
+$("#phone").val("");
+$("#address").val("");
+$("#quantity option:selected").val("");
+$("#specification option:selected").val("");
+$("#others").val("");
+$("#code_input").val("");
+});
+
+
         //自定參數呼叫
         $(function () {
             AOS.init({
@@ -454,17 +451,18 @@
             window.GVerify = GVerify;
         })(window, document);
 
+let verifySuccess;
+
         var verifyCode = new GVerify("v_container");
         document.getElementById("my_button").onclick = function () {
             var res = verifyCode.validate(document.getElementById("code_input").value);
             if (res) {
-                alert("Verification is correct");
+                verifySuccess = true;
             } else {
-                alert("Verification code error");
+                verifySuccess = false;
             }
         }
 
     </script>
 </body>
-
 </html>
