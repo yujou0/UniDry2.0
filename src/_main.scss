@@ -357,9 +357,10 @@ p{
       @media only screen and (max-width: 768px)  {
       width: 80px;
         font-size: 16px;
-        line-height: 16px;
+        // line-height: 16px;
         width: 70px;
         margin: 0;
+        vertical-align: top;
       }
 
     }
@@ -408,11 +409,7 @@ p{
     .check{
       width: 100px;
     }    
-    #v_container{
-      width: 175px;
-      display: inline-block;
-      margin-left: 10px;
-    }
+
     button{
       padding: 10px 20px;
       background-color: $secondary-color-orange;
@@ -420,7 +417,6 @@ p{
       text-align: center;
       border: none;
       cursor: pointer;
-      // font-size: 18px;
       @media only screen and (max-width: 768px)  {
         font-size: 20px;
         line-height: 20px;
