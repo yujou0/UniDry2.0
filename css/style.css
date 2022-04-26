@@ -1105,4 +1105,26 @@ footer hr.greyline {
     padding: 50px 15px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+.g-recaptcha {
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .g-recaptcha {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
